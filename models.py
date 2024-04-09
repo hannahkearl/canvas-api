@@ -10,3 +10,5 @@ class Discussion(BaseModel):
     title: str
     id: int
 
+class DiscussionEntry(BaseModel):
+    body: str
